@@ -36,19 +36,19 @@ Before using this tool, ensure you have the following:
 ### Global Installation
 Install the generator globally to use it across projects:
 ```bash
-npm install -g @Joe2512/appwrite-types-generator
+npm install -g @Joe2512/appwrite-types-gen
 ```
 
 ### Project-Level Installation
 Add the generator as a development dependency to your project:
 ```bash
-npm install --save-dev @Joe2512/appwrite-types-generator
+npm install --save-dev @Joe2512/appwrite-types-gen
 ```
 
 ### Known Issue
 If you get dependencie error because of react 19 just use --legacy-peer-deps
 ```bash
-npm install --save-dev @Joe2512/appwrite-types-generator --legacy-peer-deps
+npm install --save-dev @Joe2512/appwrite-types-gen --legacy-peer-deps
 ```
 
 ---

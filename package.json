@@ -1,6 +1,6 @@
 {
-  "name": "appwrite-types-generator",
-  "version": "1.0.0",
+  "name": "appwrite-types-gen",
+  "version": "0.0.1",
   "description": "Automated TypeScript type generation for Appwrite projects",
   "main": "dist/index.js",
   "type": "module",
