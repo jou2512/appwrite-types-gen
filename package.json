@@ -1,0 +1,41 @@
+{
+  "name": "appwrite-types-generator",
+  "version": "1.0.0",
+  "description": "Automated TypeScript type generation for Appwrite projects",
+  "main": "dist/index.js",
+  "type": "module",
+  "bin": {
+    "appwrite-types-gen": "./dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "npm run clean && tsc",
+    "prepare": "npm run build",
+    "start": "node dist/cli.js",
+    "prepack": "npm run build",
+    "test": "echo \"No tests configured\" && exit 0"
+  },
+  "keywords": [
+    "appwrite",
+    "typescript",
+    "type-generation",
+    "code-generator"
+  ],
+  "author": "Joel Scheuner",
+  "license": "Custom - See LICENSE file",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "rimraf": "^5.0.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
