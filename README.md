@@ -5,15 +5,6 @@ This project provides a powerful **TypeScript type generation tool** for Appwrit
 
 ---
 
-## 🛠️ Technical Overview
-- **Type Safety**: Automatically generates TypeScript types from Appwrite project configurations.
-- **Relationship Inference**: Supports complex relationship type inference for better schema representation.
-- **Enum & Union Types**: Generates both enum and union type definitions for flexibility.
-- **Comprehensive Error Handling**: Ensures reliability and clarity during type generation.
-- **Seamless Integration**: Designed for effortless integration with Appwrite projects.
-
----
-
 ## 🌟 Key Features
 - ✅ **Automatic Type Generation**: Say goodbye to manual typing.
 - ✅ **Relationship Type Support**: Handles even complex relationships in your schemas.
@@ -26,8 +17,8 @@ This project provides a powerful **TypeScript type generation tool** for Appwrit
 ## 📋 Prerequisites
 Before using this tool, ensure you have the following:
 - **Node.js**: Version 16+ (recommended)
-- **Appwrite Project**: A configured Appwrite backend project
-- **TypeScript Project**: A TypeScript environment for your frontend or backend application
+- **Appwrite Project**: A configured Appwrite project
+- **TypeScript Project**: Project with TypeScript other wise it would make much sense ;)
 
 ---
 
